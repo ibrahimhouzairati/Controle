@@ -1,4 +1,4 @@
-onst form = document.querySelector("#contact-form");
+const form = document.querySelector("#contact-form");
 const confirmation = document.querySelector("#show-response");
 const inputs = document.querySelectorAll("input");
 
