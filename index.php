@@ -6,10 +6,16 @@
     <title>Document</title>
     <header>
         <nav>
-            <a href="#accueil">Accueil</a>
-            <a href="Contactez-moi">Contactez-moi</a>
+            <section><a href="#accueil">Accueil</a></section>
+           <section><a href="Contactez-moi">Contactez-moi</a></section>
         </nav>
 </header>
+<main>
+    <section>
+        <img src="https://picsum.photos/200/300">
+
+</section>
+</main>
 </head>
 <body>
     
