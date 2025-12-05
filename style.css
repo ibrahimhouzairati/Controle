@@ -44,6 +44,7 @@ section img {
     width: 400px;
     border-radius: 10px;
     margin-bottom: 15px;
+    align-items: end;
 
 }
 

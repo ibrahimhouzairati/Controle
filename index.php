@@ -1,23 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    </main>
     <header>
         <nav>
-            <section><a href="#accueil">Accueil</a></section>
-           <section><a href="Contactez-moi">Contactez-moi</a></section>
+            <ul>
+                <li><a href="#section1">Accueil</a></li>
+                <li><a href="#section2">Contactez-moi</a></li>
+            </ul>
         </nav>
-</header>
-<main>
-    <section>
-        <img src="https://picsum.photos/200/300">
+    </header>
+    <main>
+        <section id="section1">
+            <img src="https://picsum.photos/200/300">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."</p>
+        </section>
 
-</section>
-</main>
-</head>
-<body>
-    
+        <main>
+            <section id="section2">
+                <img src="https://picsum.photos/400/200" alt="Image" />
+
+            </section>
+
+            <section id="section2">
+                <h2>Formulaire de contact</h2>
+                <form id="contact-form">
+                    <input type="text" id="nom" placeholder="Nom" required />
+                    <input type="text" id="prenom" placeholder="Prénom" required />
+                    <input type="email" id="email" placeholder="Adresse email" required />
+                    <button type="submit">Validez</button>
+                </form>
+                <p class="show-response" style="color: green"> Votre demande est bien envoyée !</p>
+            </section>
+        </main>
+        <footer>
+            <p>Page web faite par [Houzairati]</p>
+        </footer>
+
+        <script src="index.js"></script>
 </body>
+
+</html><html lang="en">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    </main>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#section1">Accueil</a></li>
+                <li><a href="#section2">Contactez-moi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <img src="https://picsum.photos/200/300">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum."</p>
+        </section>
+
+        <main>
+            <section id="section2">
+                <img src="https://picsum.photos/400/200" alt="Image" />
+
+            </section>
+
+            <section id="section2">
+                <h2>Formulaire de contact</h2>
+                <form id="contact-form">
+                    <input type="text" id="nom" placeholder="Nom" required />
+                    <input type="text" id="prenom" placeholder="Prénom" required />
+                    <input type="email" id="email" placeholder="Adresse email" required />
+                    <button type="submit">Validez</button>
+                </form>
+                <p class="show-response" style="color: green"> Votre demande est bien envoyée !</p>
+            </section>
+        </main>
+        <footer>
+            <p>Page web faite par [Houzairati]</p>
+        </footer>
+
+        <script src="index.js"></script>
+</body>
+
 </html>
