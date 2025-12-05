@@ -121,7 +121,7 @@
             </section>
         </main>
         <footer>
-            <p>Page web faite par [Houzairati]</p>
+            <p>Page web faite par $nom="Houzairati"</p>
         </footer>
 
         <script src="index.js"></script>

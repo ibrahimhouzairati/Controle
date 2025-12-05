@@ -38,21 +38,24 @@ main {
 section {
     margin: 40px auto;
     padding: 20px;
+    align-self: start;
 }
 
+
+
 section img {
-    width: 400px;
-    border-radius: 10px;
+    width: 200px;
+    border-radius: 8px;
     margin-bottom: 15px;
     align-items: end;
-
+    display: grid;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: right;
-    gap: 15px;
+    gap: 12px;
 }
 
 input {
@@ -86,8 +89,8 @@ button:hover {
 }
 
 .show-message {
-    visibility: visible;
-    opacity: 1;
+    visibility: hidden;
+    opacity: 0;
 }
 
 footer {

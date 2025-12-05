@@ -1,6 +1,8 @@
 const form = document.querySelector("#contact-form");
 const confirmation = document.querySelector("#show-response");
 const inputs = document.querySelectorAll("input");
+const response = document.querySelector("p");
+
 
 
 form.addEventListener("submit", (e) => {
@@ -22,4 +24,5 @@ form.addEventListener("submit", (e) => {
     } else {
         confirmation.classList.remove("show-message");
     }
-});
+
+})
